@@ -56,12 +56,12 @@ const Search = () => {
       <ThemeProvider theme={darkTheme}>
         <div className="search">
           <TextField
-            style={{ flex: 1, backgroundColor: "white", borderRadius: 3 }}
+            style={{ flex: 1, backgroundColor: "grey", borderRadius: 3 }}
             className="searchBox"
             label="Search"
             sx={{
-              "& .MuiFormLabel-root:placeholder-shown": {
-                color: "black",
+              "& .MuiInputLabel-root": {
+                color: "white",
               },
             }}
             variant="filled"
@@ -70,7 +70,7 @@ const Search = () => {
           <Button
             onClick={fetchSearch}
             variant="contained"
-            style={{ marginLeft: 10 }}
+            style={{ marginLeft: 10, backgroundColor: "grey", color: "white" }}
           >
             <SearchIcon fontSize="large" />
           </Button>
