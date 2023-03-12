@@ -12,7 +12,7 @@ import {
 import "./contentmodal.css";
 import { Button } from "@mui/material";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-// import Carousel from "../Carousel/Carousel";
+import Carousel from "../carousel/Carousel";
 
 
 const useStyles = styled((theme) => ({
@@ -24,7 +24,7 @@ const useStyles = styled((theme) => ({
   paper: {
     width: "90%",
     height: "80%",
-    backgroundColor: "#39445a",
+    backgroundColor: "black",
     border: "1px solid #282c34",
     borderRadius: 10,
     color: "white",
@@ -87,10 +87,6 @@ export default function ContentModal({ children, media_type, id }) {
         open={open}
         onClose={handleClose}
         closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
       >
         <Fade in={open}>
           {content && (
@@ -133,7 +129,7 @@ export default function ContentModal({ children, media_type, id }) {
                   </span>
 
                   <div>
-                    {/* <Carousel id={id} media_type={media_type} /> */}
+                    <Carousel id={id} media_type={media_type} />
                   </div>
 
                   <Button

@@ -10,18 +10,21 @@
 }
 
 .tagline {
-  padding-bottom: 10px;
   align-self: center;
+  padding: 40px 0px 10px 10px;
 }
 
 .ContentModal {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
-  width: 100%;
+  width: 100vw;
+  height: 70vh;
+  margin-top: 140px;
   overflow-y: scroll;
   scrollbar-width: none;
+  background-color: rgba(0, 0, 0, 0.86);
+  color: lightgrey;
 }
 
 .ContentModal::-webkit-scrollbar {
@@ -45,6 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 20px;
 }
 
 .ContentModal__description {
