@@ -91,3 +91,13 @@
     font-size: 22px;
   }
 }
+
+@media (max-width: 776px) {
+    .ContentModal {
+    align-items: center;
+    width: 91vw;
+    height: 71vh;
+    margin-left: 20px;
+    border-radius: 5px;
+  }
+}
