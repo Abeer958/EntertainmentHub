@@ -1,5 +1,5 @@
 # EntertainmentHub - A movie searching app.
-Link to project deployed with netlify. Live demo [here](https://main--lucent-haupia-242c72.netlify.app/)
+Link to project deployed with netlify. Live demo [here](https://abeers-entertainment-hub.netlify.app/)
 
 ## Table of Content
 * General Information
