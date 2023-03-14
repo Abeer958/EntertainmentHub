@@ -14,7 +14,8 @@ Link to project deployed with netlify. Live demo [here](https://abeers-entertai
 * Contact
 
 ## General Information
-I created this movie search app using MobieDB API. The app has a trending page, a movies page, a tv series page, and a search page. This project uses react-routing, MUI, SCSS and react hooks such as: useRef/useState.
+I created this movie search app using The MovieDB API. The app has a trending page, a movies page, a tv series page, and a search page. This project uses react-routing, MUI, CSS and react hooks, React Alice Carousel and Axios.
+
 
 ### Purpose of this project
 To practice web design and routing.
